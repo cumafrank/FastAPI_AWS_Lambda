@@ -1,0 +1,13 @@
+[{
+    "name": "ACE DATA SCIENCE INTERVIEW",
+    "book_id": "19babdba29cf43e09f0b24209d877e45",
+    "price": 100,
+    "genre": "fiction"
+  },
+  {
+    "name": "DS",
+    "book_id": "7403b17441044ace8b292f5323671d86",
+    "price": 0,
+    "genre": "fiction"
+  }
+]
