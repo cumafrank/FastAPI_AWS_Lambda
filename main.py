@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from typing import Optional, Literal
 from uuid import uuid4
 from fastapi.encoders import jsonable_encoder
+from mangum import Mangum
 
 class Book(BaseModel):
     name: str
@@ -14,6 +15,7 @@ class Book(BaseModel):
     
 
 app = FastAPI()
+handler = Mangum(app)
 
 # DB schema
 BOOKS_FILE = "book.json"
