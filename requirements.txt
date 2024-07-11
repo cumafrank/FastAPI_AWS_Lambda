@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 mangum
-pydantic
+pydantic_core==2.10.1
